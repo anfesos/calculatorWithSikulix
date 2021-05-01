@@ -60,8 +60,6 @@ public class CalculatorStepDefinitions {
         theActorInTheSpotlight().should(seeThat(MultiplicationResult.isOne()));
     }
 
-
-
     @After
     public void closeApplication(){
         theActorInTheSpotlight().attemptsTo(Close.calculator());
