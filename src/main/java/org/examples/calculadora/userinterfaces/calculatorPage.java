@@ -13,4 +13,8 @@ public class calculatorPage {
     public static final Pattern RESULT_TWO = new Pattern(RUTA_PROYECTO + "/src/main/resources/captures/resultado2.png");
     public static final Pattern RESULT_ZERO = new Pattern(RUTA_PROYECTO + "/src/main/resources/captures/resultadoCero.png");
     public static final Pattern CLOSE_WINDOW = new Pattern(RUTA_PROYECTO + "/src/main/resources/captures/accionesVentana.png");
+
+    public static Pattern RESULT(int result) {
+        return new Pattern(RUTA_PROYECTO + "/src/main/resources/captures/Result_" + Integer.toString(result) + ".png");
+    }
 }

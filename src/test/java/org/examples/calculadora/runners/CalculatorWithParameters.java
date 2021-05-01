@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/calculator.feature",
+        features = "src/test/resources/features/calculator_with_parameters.feature",
         glue = "org.examples.calculadora.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )
-public class Calculator {
+public class CalculatorWithParameters {
 }
